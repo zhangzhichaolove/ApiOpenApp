@@ -17,10 +17,11 @@ public class GotoManager {
      * @param context 上下问
      * @param title   页面标题
      */
-    public static void gotoJsonPage(Context context, String title, String url) {
+    public static void gotoJsonPage(Context context, String title, String url, String... params) {
         Intent intent = new Intent(context, JsonActivity.class);
         intent.putExtra("title", title);
         intent.putExtra("url", url);
+        intent.putExtra("params", params);
         context.startActivity(intent);
     }
 

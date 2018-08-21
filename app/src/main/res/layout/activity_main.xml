@@ -15,7 +15,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:background="#f0f"
-            android:text="1"
+            android:text="新闻接口"
             android:textColor="@android:color/white" />
 
         <Button
@@ -24,63 +24,124 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:background="#f0f"
-            android:text="2"
+            android:text="热门段子"
             android:textColor="@android:color/white" />
 
         <Button
+            android:id="@+id/btn_03"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:background="#f0f"
-            android:text="3"
+            android:text="热门段子【神评版本】"
             android:textColor="@android:color/white" />
 
         <Button
+            android:id="@+id/btn_04"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:background="#f0f"
-            android:text="4"
+            android:text="【神评版本】评论列表"
             android:textColor="@android:color/white" />
 
         <Button
+            android:id="@+id/btn_05"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:background="#f0f"
-            android:text="5"
+            android:text="小说推荐"
             android:textColor="@android:color/white" />
 
         <Button
+            android:id="@+id/btn_06"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:background="#f0f"
-            android:text="6"
+            android:text="小说搜索"
             android:textColor="@android:color/white" />
 
         <Button
+            android:id="@+id/btn_07"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:background="#f0f"
-            android:text="7"
+            android:text="小说详情"
             android:textColor="@android:color/white" />
 
         <Button
+            android:id="@+id/btn_08"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:background="#f0f"
-            android:text="8"
+            android:text="天气获取"
             android:textColor="@android:color/white" />
 
         <Button
+            android:id="@+id/btn_09"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:background="#f0f"
-            android:text="9"
+            android:text="美图获取"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btn_10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="#f0f"
+            android:text="个性网名"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btn_11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="#f0f"
+            android:text="创建应用"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btn_12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="#f0f"
+            android:text="增加统计信息"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btn_13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="#f0f"
+            android:text="查询统计信息"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btn_14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="#f0f"
+            android:text="用户注册"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btn_15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="#f0f"
+            android:text="用户登陆"
             android:textColor="@android:color/white" />
 
     </LinearLayout>
